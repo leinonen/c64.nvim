@@ -40,6 +40,13 @@ use({
 })
 ```
 
+### vim.pack (Neovim 0.12+)
+
+```lua
+vim.pack.add({ { src = "https://github.com/leinonen/c64.nvim", version = vim.version.range("0.1") } })
+vim.cmd.colorscheme("c64")
+```
+
 ### vim-plug
 
 ```vim
