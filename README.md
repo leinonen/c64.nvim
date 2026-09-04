@@ -64,6 +64,8 @@ require("c64").setup({
   italic_comments = true,  -- italicize comments
   bold_keywords   = true,  -- embolden keywords/statements
   terminal_colors = true,  -- set g:terminal_color_* for :terminal
+  guicursor       = true,  -- make the terminal cursor follow the Cursor group
+                           -- (skipped if you already customized 'guicursor')
 })
 vim.cmd.colorscheme("c64")
 ```
